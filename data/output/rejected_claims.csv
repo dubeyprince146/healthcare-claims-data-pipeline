@@ -1,0 +1,6 @@
+claim_id,member_id,provider_id,diagnosis_code,service_date,claim_amount,claim_status,rejection_reason
+C111,,P101,D1000,2026-04-28,2000,APPROVED,Missing mandatory value: member_id
+C112,1006,P101,D1000,2026-04-28,-2000,APPROVED,Invalid claim_amount: must be greater than zero
+C113,1001,P101,D1000,2026-05-28,2000,APPRVD,"Invalid claim_status: must be APPROVED, DENIED, or PENDING"
+C104,1006,P101,D1000,2026-04-28,4000,APPROVED,Duplicate claim_id: later occurrence
+C114,1002,P201,D1000,2026-28-04,2000,APPROVED,Invalid service_date: must be a real date in YYYY-MM-DD format
