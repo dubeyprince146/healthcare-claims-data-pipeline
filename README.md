@@ -4,7 +4,7 @@
 
 This project implements a foundation data pipeline for processing synthetic healthcare claims. Python validates the source records and separates them into valid and rejected datasets. The resulting files are stored in a private AWS S3 landing area and securely loaded into Snowflake, where they are audited, transformed into curated tables, summarized by service date, and reconciled against the clean claim data.
 
-Milestones M1–M6 are complete, covering repository setup, data definition and analysis, Python validation, secure S3 storage, Snowflake loading and auditing, and curated transformations. M7 — Documentation and Review is currently active. The foundation pipeline is implemented, but the overall project is not yet complete.
+Milestones M1–M7 are complete. The project includes documentation, architecture, validation, secure S3 landing design, Snowflake loading and audit controls, curated transformations, and reconciliation checks.
 
 ## Architecture and Implemented Data Flow
 
